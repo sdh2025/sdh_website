@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="S... D... H....", page_icon="🐤")
+st.set_page_config(page_title="Sing Dein Herz", page_icon="🐤")
 
-st.title("S... D.... H.....")
+st.title("💛 Sing Dein Herz 🐤")
 st.write("Diese Webseite befindet sich im Aufbau.")
