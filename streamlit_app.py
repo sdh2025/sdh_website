@@ -20,7 +20,7 @@ logo = Image.open("logo.png")
 st.image(logo, width=250)
 
 # Titel & Einführung
-st.title("Veranstaltungsreihe - Gemeinsam singen in Friedenau")
+st.title("Gemeinsam singen in Friedenau")
 st.write("Willkommen! Hier findest du alle Termine unserer Veranstaltung sowie die Kontaktdaten zur Anmeldung.")
 
 # ❓ Beschreibung der Veranstaltung
