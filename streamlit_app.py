@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 # Seiteneinstellungen
-st.set_page_config(page_title="Veranstaltung 2025", page_icon="📅", layout="centered")
+st.set_page_config(page_title="Singen in Friedenau", page_icon="🎶", layout="centered")
 
 # ✅ CSS: Hintergrundfarbe für Hauptbereich
 st.markdown("""
@@ -32,7 +32,7 @@ Begleitet werden wir dabei von Gitarre oder Harmonium – und manchmal lauschen 
 Bitte bring eine verschließbare Wasserflasche mit, extra Socken (der Raum darf nur ohne Schuhe betreten werden)
 und – wenn du lieber auf dem Boden sitzt – eine Sitzunterlage.
 
-Die Plätze sind begrenzt, daher freuen wir uns über eine kurze Anmeldung per E-Mail.
+Die Plätze im schönen hellen Raum im TAYOME in Friedenau sind begrenzt, daher freuen wir uns über eine kurze Anmeldung per E-Mail.
 Wenn du ganz in der Nähe wohnst, kannst du aber auch gerne spontan vorbeikommen und schauen, ob noch ein Platz frei ist.
 """)
 
@@ -42,11 +42,11 @@ Wenn du ganz in der Nähe wohnst, kannst du aber auch gerne spontan vorbeikommen
 st.subheader("📍 Ort")
 st.markdown("**TAYOME**, Stierstraße 1, 12159 Berlin Friedenau")
 
-st.subheader("📆 Termine")
+st.subheader("📆 Termine - Singen in Friedenau ")
 termine = [
-    "27. Juli 2025              / 18:00h-19:30h",
-    "10. August 2025            / 18:00h-19:30h",
-    "07. September 2025         / 18:00h-19:30h"
+    "So 27. Juli 2025              / 18:00h-19:30h",
+    "So 10. August 2025            / 18:00h-19:30h",
+    "So 07. September 2025         / 18:00h-19:30h"
 ]
 
 for datum in termine:
@@ -59,4 +59,4 @@ st.markdown("**[kontakt@singdeinherz.de]**")
 
 # Fußzeile
 st.markdown("---")
-st.caption("© 2025 Veranstaltungsreihe SingDeinHerz im TAYOME in Friedenau")
+st.caption("© 2025 singdeinherz / Singen im TAYOME in Friedenau")
