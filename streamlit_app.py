@@ -24,25 +24,33 @@ st.title("Gemeinsam singen in Friedenau")
 st.write("Willkommen! Hier findest du alle Termine unserer Veranstaltung sowie die Kontaktdaten zur Anmeldung.")
 
 # ❓ Beschreibung der Veranstaltung
-st.subheader("🎶 Was erwartet dich?")
+st.subheader("🎶 Sing Dein Herz- Singen verbindet, heilt und öffnet")
 st.write("""
-Wir singen gemeinsam Herzenslieder aus aller Welt – Mantren, Gospel und mehr.
-Die Lieder haben kurze Texte, einfache Melodien und laden zum Mitsingen ein – ganz ohne Leistungsdruck.
-Begleitet werden wir dabei von Gitarre oder Harmonium – und manchmal lauschen wir auch einfach den sanften Klängen einer Handpan.
+Wir singen gemeinsam deutsche Lieder, Mantren, spirituelle Lieder und Herzenslieder aus aller Welt.
+Die Lieder haben einfache, meist kurze Texte und eingängige Melodien, die zum Mitsingen einladen. 
+Es sind keine besonderen Vorkenntnisse nötig. Im Mittelpunkt steht die Freude am Singen, das Ankommen bei uns selbst 
+und das Erfahren von Verbindung zueinander durch den gemeinsam erzeugten Klang.
+Begleitet werden wir dabei von Gitarre oder Harmonium. Zwischendurch lauschen wir den sanften Klängen einer Handpan.
 Bitte bring eine verschließbare Wasserflasche mit, extra Socken (der Raum darf nur ohne Schuhe betreten werden)
 und – wenn du lieber auf dem Boden sitzt – eine Sitzunterlage.
 
-Die Plätze im schönen hellen Raum im TAYOME in Friedenau sind begrenzt, daher freuen wir uns über eine kurze Anmeldung per E-Mail.
-Wenn du ganz in der Nähe wohnst, kannst du aber auch gerne spontan vorbeikommen und schauen, ob noch ein Platz frei ist.
+Da die Plätze im schönen, hellen Raum im TAYOME in Friedenau begrenzt sind, bitten wir um eine kurze Anmeldung per E-Mail. 
+Natürlich sind auch spontane Besucher herzlich willkommen, solange noch Plätze frei sind.
+
+Wir freuen uns auf eine schöne gemeinsame Zeit voller Musik und Verbundenheit!
+
+Herzliche Grüße !
+
+Kati und Thomas
 """)
 
 
 
 # Veranstaltungsinformationen
 st.subheader("📍 Ort")
-st.markdown("**TAYOME**, Stierstraße 1, 12159 Berlin Friedenau")
+st.markdown("**TAYOME**, Stierstraße 1, 12159 Berlin Friedenau (www.tayome.de)")
 
-st.subheader("📆 Termine - Singen in Friedenau ")
+st.subheader("🌿 Termine - Singen in Friedenau ")
 termine = [
     "So 27. Juli 2025              / 18:00h-19:30h",
     "So 10. August 2025            / 18:00h-19:30h",
@@ -51,6 +59,10 @@ termine = [
 
 for datum in termine:
     st.markdown(f"**{datum}** ")
+    
+# Preisvorstellung
+#st.subheader("💰 Preis")
+st.write("**Preis:** Empfehlung 12 Euro, du zahlst, was du kannst.")
 
 # Kontakt
 st.subheader("📧 Anmeldung & Kontakt")
