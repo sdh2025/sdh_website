@@ -4,14 +4,22 @@ from PIL import Image
 # Seiteneinstellungen
 st.set_page_config(page_title="Singen in Friedenau", page_icon="🎶", layout="centered")
 
-# ✅ CSS: Hintergrundfarbe für Hauptbereich
+# ✅ CSS: Hintergrundfarbe und Textfarbe festlegen (auch für Dark Mode)
 st.markdown("""
     <style>
     .stApp {
         background-color: #fffaf0;
+        color: #000000;
+    }
+    h1, h2, h3, h4, h5, h6, p, div, span {
+        color: #000000 !important;
+    }
+    a {
+        color: #1a0dab !important;
     }
     </style>
     """, unsafe_allow_html=True)
+
 
 
 
