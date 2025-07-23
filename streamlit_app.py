@@ -43,7 +43,7 @@ Bitte bring eine verschließbare Wasserflasche mit, extra Socken (der Raum darf 
 und – wenn du lieber auf dem Boden sitzt – eine Sitzunterlage.
 
 Da die Plätze im schönen, hellen Raum im TAYOME in Friedenau begrenzt sind, bitten wir um eine kurze Anmeldung per E-Mail. 
-Natürlich sind auch spontane Besucher herzlich willkommen, solange noch Plätze frei sind.
+
 
 Wir freuen uns auf eine schöne gemeinsame Zeit voller Musik und Verbundenheit!
 
@@ -52,7 +52,7 @@ Herzliche Grüße !
 Kati und Thomas
 """)
 
-
+#Natürlich sind auch spontane Besucher herzlich willkommen, solange noch Plätze frei sind.
 
 # Veranstaltungsinformationen
 st.subheader("📍 Ort")
@@ -61,7 +61,7 @@ st.markdown("**TAYOME**, Stierstraße 1, 12159 Berlin Friedenau (www.tayome.de)"
 st.subheader("🌿 Termine - Singen in Friedenau ")
 termine = [
     "So 27. Juli 2025              / 18:00h-19:30h (Warteliste)",
-    "So 10. August 2025            / 18:00h-19:30h (13 Plätze frei)",
+    "So 10. August 2025            / 18:00h-19:30h (12 Plätze frei)",
     "So 07. September 2025         / 18:00h-19:30h" 
 ]
 
