@@ -1,4 +1,4 @@
-import streamlit as st
+Mimport streamlit as st
 from PIL import Image
 
 # Seiteneinstellungen
@@ -44,6 +44,8 @@ und – wenn du lieber auf dem Boden sitzt – eine Sitzunterlage.
 
 Da die Plätze im schönen, hellen Raum im TAYOME in Friedenau begrenzt sind, bitten wir um eine kurze Anmeldung per E-Mail. 
 
+Spontane TeilnehmerInnen sind  herzlich willkommen, solange noch Plätze frei sind.
+
 Wir freuen uns auf eine schöne gemeinsame Zeit voller Musik und Verbundenheit!
 
 Herzliche Grüße !
@@ -60,7 +62,7 @@ st.markdown("**TAYOME**, Stierstraße 1, 12159 Berlin Friedenau (www.tayome.de)"
 st.subheader("🌿 Termine - Singen in Friedenau ")
 termine = [
     "So 27. Juli 2025              / 18:00h-19:30h (AUSGEBUCHT)",
-    "So 10. August 2025            / 18:00h-19:30h (1 Platz frei)",
+    "So 10. August 2025            / 18:00h-19:30h (2 Plätze frei)",
     "So 07. September 2025         / 18:00h-19:30h" 
 ]
 
@@ -79,6 +81,7 @@ st.markdown("**[kontakt@singdeinherz.de]**")
 # Fußzeile
 st.markdown("---")
 st.caption("© 2025 singdeinherz / Singen im TAYOME in Friedenau")
+
 
 
 
