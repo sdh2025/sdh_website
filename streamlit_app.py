@@ -1,4 +1,4 @@
-Mimport streamlit as st
+import streamlit as st
 from PIL import Image
 
 # Seiteneinstellungen
@@ -81,6 +81,7 @@ st.markdown("**[kontakt@singdeinherz.de]**")
 # Fußzeile
 st.markdown("---")
 st.caption("© 2025 singdeinherz / Singen im TAYOME in Friedenau")
+
 
 
 
