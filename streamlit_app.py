@@ -64,8 +64,9 @@ termine = [
 "So 29. März 2026       / 18:00h-19:30h",
 # "3 Plätze frei" ,
 "................",
-"So 03. Mai 2026          / 18:00h-19:30h "
-"Sa 16. Mai 2025           / 18:00h-19:30h "
+"So 03. Mai 2026          / 18:00h-19:30h " ,
+"Sa 16. Mai 2025           / 18:00h-19:30h ",
+"Sa 20. Juni 2025           / 18:00h-19:30h "
 ]
 
 for datum in termine:
@@ -83,6 +84,7 @@ st.markdown("**[kontakt@singdeinherz.de]**")
 # Fußzeile
 st.markdown("---")
 st.caption("© 2025 singdeinherz / Singen im TAYOME in Friedenau")
+
 
 
 
