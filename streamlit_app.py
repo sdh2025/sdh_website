@@ -62,7 +62,7 @@ st.markdown("**TAYOME**, Stierstraße 1, 12159 Berlin Friedenau (www.tayome.de)"
 st.subheader("🌿 Termine - Singen in Friedenau ")
 termine = [
 "So 03. Mai 2026       / 18:00h-19:30h",
-#"3 Plätze frei" ,
+"7 Plätze frei" ,
 "................",
 "Sa 16. Mai 2025           / 18:00h-19:30h ",
 "Sa 20. Juni 2025           / 18:00h-19:30h "
