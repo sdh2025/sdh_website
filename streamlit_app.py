@@ -82,7 +82,7 @@ st.markdown("**[kontakt@singdeinherz.de]**")
 
 # Fußzeile
 st.markdown("---")
-st.caption("© 2025 singdeinherz / Singen im TAYOME in Friedenau")
+st.caption("© 2026 singdeinherz / Singen im TAYOME in Friedenau")
 
 
 
