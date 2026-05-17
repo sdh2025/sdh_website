@@ -65,8 +65,8 @@ termine = [
 #"2 Plätze frei" ,
 "................",
 "So 5. Juli 2026           / 18:00h-19:30h ",
-"So 9. August 2025           / 18:00h-19:30h ",
-"So 13. September 2025           / 18:00h-19:30h " 
+"So 9. August 2026           / 18:00h-19:30h ",
+"So 13. September 2026           / 18:00h-19:30h " 
 ]
 
 for datum in termine:
