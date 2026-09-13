@@ -44,7 +44,7 @@ und – wenn du lieber auf dem Boden sitzt – eine Sitzunterlage.
 
 Da die Plätze im schönen, hellen Raum im TAYOME in Friedenau begrenzt sind, bitten wir um eine kurze Anmeldung per E-Mail. 
 
-Spontan TeilnehmerInnen sind  herzlich willkommen, solange noch Plätze frei sind.
+Spontan TeilnehmerInnen sind  herzlich willkommen, solange noch Plätze frei
 
 Wir freuen uns auf eine schöne gemeinsame Zeit voller Musik und Verbundenheit!
 
